@@ -1,0 +1,59 @@
+.fcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.fcontainer-head{
+    display: flex;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+mat-card {
+    background-color: #6687E3;
+    padding: 6px;
+
+}
+
+.border{
+    border-right: 2px solid black;
+}
+
+.font-details{
+    font-weight: 10;
+    font-size: smaller;
+}
+
+.textdetails{
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: x-small;
+}
+
+.numberdetails{
+    color: blue;
+    font-weight: 1000;
+    text-align: center;
+    font-size: x-small;
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px){
+    
+}
+
+@media all and (min-width: 481px) and (max-width: 768px){
+    
+}
+
+@media all and (max-width: 480px){
+
+}

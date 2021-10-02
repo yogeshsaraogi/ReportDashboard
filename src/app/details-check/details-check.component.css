@@ -1,0 +1,70 @@
+mat-card{
+    background-color: #6687E3  
+}
+
+.row-1 {height: 8.33%;}
+.row-2 {height: 16.66%;}
+.row-3 {height: 25%;}
+.row-4 {height: 33.33%;}
+.row-5 {height: 41.66%;}
+.row-7 {height: 58.33%;}
+.row-8 {height: 66.66%;}
+.row-9 {height: 75%;}
+.row-10 {height: 83.33%;}
+.row-11 {height: 91.66%;}
+.row-default {height: 98%;}
+.row-12 {height: 100%;}
+
+.mt-1{
+    margin-top: 1rem;
+}
+
+.ml-2{
+    margin-left: 2rem;
+}
+.ml-1{
+    margin-left: 1rem;
+}
+
+.textdetails{
+    color: whitesmoke;
+    font-weight: 10;
+    font-size: smaller;
+}
+
+.thinline{
+    border-bottom: 1px solid whitesmoke;
+}
+
+.numberdetails{   
+    font-weight: 1000;
+}
+
+.fcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.color-blue{
+    color: rgb(9, 57, 189); 
+}
+.color-green{
+    color: rgb(102, 235, 13);
+}
+.color-orange{
+    color: rgb(253, 100, 11);
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px){
+    
+}
+
+@media all and (min-width: 481px) and (max-width: 768px){
+    
+}
+
+@media all and (max-width: 480px){
+
+}

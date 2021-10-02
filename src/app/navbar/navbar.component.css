@@ -1,0 +1,49 @@
+.row-1 {height: 8.33%;}
+.row-2 {height: 16.66%;}
+.row-3 {height: 25%;}
+.row-4 {height: 33.33%;}
+.row-5 {height: 41.66%;}
+.row-7 {height: 58.33%;}
+.row-8 {height: 66.66%;}
+.row-9 {height: 75%;}
+.row-10 {height: 83.33%;}
+.row-11 {height: 91.66%;}
+.row-default {height: 98%;}
+.row-12 {height: 100%;}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+.mt-3{
+    margin-top: 3rem;
+}
+
+.font-details{
+    font-weight: 10;
+    font-size: smaller;
+    color: white;
+}
+
+.ml{
+    margin-left: 1.5rem;
+}
+
+.color-white{
+    color: white;
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px){
+    
+}
+
+@media all and (min-width: 481px) and (max-width: 768px){
+    
+}
+
+@media all and (max-width: 480px){
+
+}
+
+
+

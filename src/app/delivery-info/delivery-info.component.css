@@ -1,0 +1,73 @@
+.mt-1{
+    margin-top: 1rem;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+mat-card {
+    background-color: #6687E3;
+}
+
+.font-details{
+    font-weight: 10;
+    font-size: smaller;
+}
+
+.textdetails{
+    color: whitesmoke;
+    font-weight: 10;
+    font-size: smaller;
+}
+
+.x-textdetails{
+    color: whitesmoke;
+    font-weight: 10;
+    font-size: xx-small;
+}
+
+.x-numberdetails{
+    color: rgb(9, 57, 189);
+    font-weight: 1000;
+    text-align: center;
+    font-size: x-small;
+}
+
+.numberdetails{
+    color: rgb(9, 57, 189);
+    font-weight: 1000;
+    text-align: center;
+}
+
+.card-width{
+    width: 100%;
+}
+
+.fcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-align{
+    text-align: center;
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%
+} 
+
+@media all and (min-width: 769px) and (max-width: 1024px){
+    
+}
+
+@media all and (min-width: 481px) and (max-width: 768px){
+    
+}
+
+@media all and (max-width: 480px){
+
+}
