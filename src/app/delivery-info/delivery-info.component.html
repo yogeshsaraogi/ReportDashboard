@@ -18,7 +18,7 @@
             <div class="numberdetails">
                 99%
             </div>
-            <div class="textdetails text-align">
+            <div class="textdetails">
                 Within Time Limit
             </div>
         </div>
@@ -51,13 +51,20 @@
             <div><fa-icon [icon]="faSearch" class="ml"></fa-icon></div>
         </div>
 
-        <div id="circle" class="mt-1">
+        <div class="mt-1">
+            <highcharts-chart
+            
+            [Highcharts]="highcharts"
+            [options]="chartOptions">
+
+            </highcharts-chart>
+            
         </div>
 
         <div class="fcontainer mt-1">
 
             <div>
-                <div>
+                <div class="mat-progress-bar">
                     <mat-progress-bar mode="determinate" value="100"></mat-progress-bar>
                 </div>
                 <div class="x-textdetails">Bangalore</div>
@@ -100,3 +107,4 @@
 
     </mat-card>
 </div>
+

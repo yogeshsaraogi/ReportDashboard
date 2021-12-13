@@ -1,3 +1,4 @@
+
 .mt-1{
     margin-top: 1rem;
 }
@@ -10,21 +11,30 @@ mat-card {
     background-color: #6687E3;
 }
 
-.font-details{
-    font-weight: 10;
-    font-size: smaller;
+
+.fcontainer{
+    display: flex;
+    justify-content: space-between;
 }
 
 .textdetails{
     color: whitesmoke;
     font-weight: 10;
     font-size: smaller;
+    text-align: center;
 }
 
 .x-textdetails{
     color: whitesmoke;
     font-weight: 10;
     font-size: xx-small;
+}
+
+
+.numberdetails{
+    color: rgb(9, 57, 189);
+    font-weight: 1000;
+    text-align: center;
 }
 
 .x-numberdetails{
@@ -34,24 +44,12 @@ mat-card {
     font-size: x-small;
 }
 
-.numberdetails{
-    color: rgb(9, 57, 189);
-    font-weight: 1000;
-    text-align: center;
-}
 
 .card-width{
     width: 100%;
 }
 
-.fcontainer{
-    display: flex;
-    justify-content: space-between;
-}
 
-.text-align{
-    text-align: center;
-}
 
 #circle {
     width: 100px;
@@ -60,12 +58,17 @@ mat-card {
     border-radius: 50%
 } 
 
-@media all and (min-width: 769px) and (max-width: 1024px){
+@media all and (width: 1024px) and (height: 1366px){
     
 }
 
-@media all and (min-width: 481px) and (max-width: 768px){
-    
+@media all and (width: 768px) and (height: 1024px){
+    .textdetails{
+        font-size: 60%;
+    }
+    .x-textdetails{
+        font-size: 50%;
+    }
 }
 
 @media all and (max-width: 480px){

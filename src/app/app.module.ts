@@ -11,6 +11,8 @@ import { DetailsCheckComponent } from './details-check/details-check.component';
 import { WeatherInfoComponent } from './weather-info/weather-info.component';
 import { DeliveryInfoComponent } from './delivery-info/delivery-info.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { HighchartsChartModule } from 'highcharts-angular';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     FormsModule,
     BrowserAnimationsModule,
     MaterialComponentsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HighchartsChartModule,
+    NgCircleProgressModule
   ],
   providers: [],
   bootstrap: [AppComponent]

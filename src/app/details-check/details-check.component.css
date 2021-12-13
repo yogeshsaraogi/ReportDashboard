@@ -26,9 +26,16 @@ mat-card{
     margin-left: 1rem;
 }
 
+.fcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
 .textdetails{
     color: whitesmoke;
-    font-weight: 10;
+    font-weight: 200;
     font-size: smaller;
 }
 
@@ -38,13 +45,6 @@ mat-card{
 
 .numberdetails{   
     font-weight: 1000;
-}
-
-.fcontainer{
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-
 }
 
 .color-blue{
@@ -57,12 +57,17 @@ mat-card{
     color: rgb(253, 100, 11);
 }
 
-@media all and (min-width: 769px) and (max-width: 1024px){
+@media all and (width: 1024px) and (height: 1366px){
     
 }
 
-@media all and (min-width: 481px) and (max-width: 768px){
-    
+@media all and (width: 768px) and (height: 1024px){
+    .textdetails{
+        font-size: 60%;
+    }
+    .numberdetails{
+        font-size: 80%;
+    }
 }
 
 @media all and (max-width: 480px){
